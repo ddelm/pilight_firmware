@@ -1,8 +1,8 @@
 TARGET=pilight_firmware
 VERSION=v3
 
-MCU=attiny45
-AVRDUDEMCU=t45
+MCU=attiny85
+AVRDUDEMCU=t85
 CC=/usr/bin/avr-gcc
 CFLAGS= -mmcu=$(MCU) -DF_CPU=16000000UL -Wall -Os -fno-inline-small-functions -mrelax
 OBJ2HEX=/usr/bin/avr-objcopy
